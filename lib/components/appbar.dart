@@ -15,7 +15,6 @@ class CustomAppBar extends StatelessWidget {
     double fontSize(double size) {
       return size * width / 414;
     }
-
     return Container(
       margin: EdgeInsets.symmetric(horizontal: width / 20),
       child: Row(
